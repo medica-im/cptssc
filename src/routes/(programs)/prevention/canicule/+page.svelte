@@ -167,11 +167,13 @@
 			{/each}
 		</div>
 		<h3 class="h3">Lieux climatisés ou toujours frais</h3>
+		<!--
 		<p>Si vous recherchez un espace frais aux heures les plus chaudes (14h-18h), contactez la mairie au <a class="anchor" href="tel:0490224110">04 90 22 41 10</a>. Une astreinte téléphonique est disponible en dehors des jours d'ouverture de 8h à 18h en période d'alerte canicule. La mairie mettra à votre disposition un endroit climatisé.</p>
 		<p>Vous pouvez aussi profiter de la fraicheur de la médiathèque à ses heures d'ouverture.</p>
 		<div class="py-2">
 		<AirConditionedFacility/>
 		</div>
+	-->
 	</div>
 </section>
 
@@ -217,9 +219,9 @@
 				</li>
 				<li>
 					<a
-						href="https://vigilance.meteofrance.fr/fr/vaucluse"
+						href="https://vigilance.meteofrance.fr/fr/charente"
 						rel="external"
-						class="anchor">Vigilance météo Vaucluse - Météo France</a
+						class="anchor">Vigilance météo Charente - Météo France</a
 					>
 				</li>
 				<li>

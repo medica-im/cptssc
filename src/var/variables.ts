@@ -53,7 +53,7 @@ export const programsNavLinks: ProgramsNavLinks = {
                 keywords: 'soins, médecin, accès, parcours',
                 icon: null,
                 category: 'program',
-                active: true
+                active: false
             }
         ]
     },
@@ -80,7 +80,7 @@ export const programsNavLinks: ProgramsNavLinks = {
                 keywords: 'patient, ETP, diabète, éducation, thérapeutique,bronchite chronique, HTA, maladie cardio-vasculaire',
                 icon: null,
                 category: 'program',
-                active: true,
+                active: false,
             },
             {
                 href: '/education-therapeutique/diabete',
@@ -149,7 +149,7 @@ export const programsNavLinks: ProgramsNavLinks = {
                 keywords: 'prévention, santé, maladie, vaccin',
                 icon: null,
                 category: 'program',
-                active: true,
+                active: false,
                 preload: 'off'
             },
             {
@@ -182,7 +182,7 @@ export const programsNavLinks: ProgramsNavLinks = {
                 keywords: 'prévention, cancer, colon, rectum, activité, physique, diététique, surpoids, obésité, alcool, tabac, sédentarité',
                 icon: null,
                 category: 'program',
-                active: true
+                active: false
             },
             {
                 href: '/prevention/depistage-cancer-col-uterus',
@@ -215,12 +215,12 @@ export const programsNavLinks: ProgramsNavLinks = {
 const outpatientClinicLinks: any = {
 	// outpatient clinic
 	'msp': {
-		id: 'maison-de-sante',
+		id: 'cpts',
 		title: {
-			en: 'Outpatient clinic',
-			fr: 'Maison de santé'
+			en: 'CPTS',
+			fr: 'CPTS'
 		},
-		menu: 'MSP',
+		menu: 'CPTS',
 		href: '/maison-de-sante',
 		list: [
 			{
@@ -264,7 +264,7 @@ const outpatientClinicLinks: any = {
 }
 
 export const menuNavLinks: any = {
-    ...outpatientClinicLinks,
+    //...outpatientClinicLinks,
     ...programsNavLinks
 };
 
@@ -280,12 +280,12 @@ interface MenuNavCat {
 export const menuNavCats: MenuNavCat[] = [
     // outpatient clinic
     {
-        id: 'msp',
+        id: 'cpts',
         title: {
-            en: 'Outpatient clinic',
-            fr: 'Maison de santé'
+            en: 'CPTS',
+            fr: 'CPTS'
         },
-        list: ['maison-de-sante']
+        list: ['cpts']
     },
     // programs
     {

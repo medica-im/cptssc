@@ -57,7 +57,7 @@
 									{#if $organizationStore.contact.emails}
 										<Emails data={$organizationStore.contact.emails} />
 									{/if}
-									<img class="rounded-lg py-4 max-w-80" src={logo} alt="logo de la MSP représentant un stéthoscope en forme de cœur et le profil stylisé de la commune escarpée avec au sommet le clocher de l'église Saint-Jean-Baptiste" />
+									<!--img class="rounded-lg py-4 max-w-80" src={logo} alt="logo de la MSP représentant un stéthoscope en forme de cœur et le profil stylisé de la commune escarpée avec au sommet le clocher de l'église Saint-Jean-Baptiste" /-->
 								</div>
 							</div>
 						</div>

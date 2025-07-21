@@ -37,7 +37,7 @@
 			<Welcome formattedNameDefiniteArticle={$organizationStore.formatted_name_definite_article} />
 		</div>
 		<div class="">
-			Votre <a href="/maison-de-sante/a-propos" class="anchor">maison de santé pluriprofessionnelle</a> à Châteauneuf-de-Gadagne.
+			La communauté professionnelle territoriale de santé du Sud Charente.
 		</div>
 		{#if browser}
 		<HeatwaveAlert link={true} />
@@ -62,14 +62,15 @@
 	</div>
 </section>
 	<!-- blog -->
-	<section id="blog" class="bg-surface-100-800-token blog-gradient">
+	<!--section id="blog" class="bg-surface-100-800-token blog-gradient">
 		<div class="section-container">
 			<div class=" grid grid-cols-1 gap-6 place-items-center">
 			    <Ghost data={data.ghost} ghost={data.ghostSite} />
 			    <SignupForm data={data.ghostSite}/>
 		    </div>
 		</div>
-	</section>
+	</section-->
+
 <!-- programs -->
 {#if variables.ORGANIZATION_CATEGORY == 'msp'}
 	<section id="programs" class="bg-surface-100-800-token programs-gradient">
