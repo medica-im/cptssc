@@ -61,15 +61,14 @@
 		<Facility data={{ facilities: data.facilities, carousel: data.facilityCarousel, organization: data.organization }} />
 	</div>
 </section>
-	<!-- blog -->
-	<!--section id="blog" class="bg-surface-100-800-token blog-gradient">
+	<section id="blog" class="bg-surface-100-800-token blog-gradient">
 		<div class="section-container">
 			<div class=" grid grid-cols-1 gap-6 place-items-center">
 			    <Ghost data={data.ghost} ghost={data.ghostSite} />
 			    <SignupForm data={data.ghostSite}/>
 		    </div>
 		</div>
-	</section-->
+	</section>
 
 <!-- programs -->
 {#if variables.ORGANIZATION_CATEGORY == 'msp'}
